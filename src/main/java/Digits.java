@@ -7,14 +7,14 @@ public class Digits
 
 	public Digits(int num)
 	{ 
-		int temp = num;
+		
 		digitList = new ArrayList <Integer>();
 		String a = "";
 		a +=num;
 		int length = a.length();
 		for (int i =0; i<length;i++){
-			digitList.add(temp%10);
-			temp = temp/10;
+			digitList.add(0,num%10);
+			num = num/10;
 		}
 	    
 	}
