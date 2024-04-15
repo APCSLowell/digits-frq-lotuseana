@@ -8,7 +8,7 @@ public class Digits
 	public Digits(int num)
 	{ 
 		int temp = num;
-		digitList = new ArrayList <Integer>;
+		digitList = new ArrayList <Integer>();
 		String a = "";
 		a +=num;
 		int length = a.length();
